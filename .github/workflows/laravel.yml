@@ -96,5 +96,6 @@ jobs:
           DB_DATABASE: db_test_laravel
           DB_PORT: 33306
           DB_USERNAME: root
+          DB_PASSWORD: salesdock
 
         run: vendor/bin/phpunit
