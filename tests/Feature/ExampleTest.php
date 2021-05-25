@@ -7,10 +7,9 @@ use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {
-    public function test_example()
+    public function testHomepage()
     {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
+        $this->get('/')
+            ->assertSeeText('Documentation');
     }
 }
