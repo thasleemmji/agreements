@@ -73,10 +73,11 @@ jobs:
       - name: Run Migrations
         # Set environment
         env:
+          DB_HOST: 127.0.0.1
           DB_CONNECTION: mysql
           DB_DATABASE: db_test_laravel
           DB_PORT: 33306
-          DB_USER: root
+          DB_USERNAME: root
           DB_PASSWORD: salesdock
 
         run: php artisan migrate
@@ -90,9 +91,10 @@ jobs:
       - name: Execute tests (Unit and Feature tests) via PHPUnit
         # Set environment
         env:
+          DB_HOST: 127.0.0.1
           DB_CONNECTION: mysql
           DB_DATABASE: db_test_laravel
           DB_PORT: 33306
-          DB_USER: root
+          DB_USERNAME: root
 
         run: vendor/bin/phpunit
