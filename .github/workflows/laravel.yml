@@ -16,8 +16,9 @@ jobs:
         # Docker Hub image (also with version)
         image: mysql:5.7
         env:
-          MYSQL_ALLOW_EMPTY_PASSWORD: yes
+          MYSQL_ALLOW_EMPTY_PASSWORD: no
           MYSQL_DATABASE:  db_test_laravel
+          MYSQL_ROOT_PASSWORD: salesdock
         ## map the "external" 33306 port with the "internal" 3306
         ports:
           - 33306:3306
@@ -76,6 +77,7 @@ jobs:
           DB_DATABASE: db_test_laravel
           DB_PORT: 33306
           DB_USER: root
+          DB_PASSWORD: salesdock
 
         run: php artisan migrate
 
