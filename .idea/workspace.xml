@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3faa4d93-4283-47ab-b4a4-1cb6fc43e7f0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.testing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +143,26 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="PHPUnit.ExampleTest.test_example">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="php artisan migrate" />
+      <command value="php artisan  make:factory UserFactory --model=user" />
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.ExampleTest.testSeeAddedUserInView">
+    <configuration name="ExampleTest.testHomepage" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" method="testHomepage" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleTest.testSeeAddedUserInView" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Feature\ExampleTest" configuration_file="$PROJECT_DIR$/phpunit.xml" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" method="testSeeAddedUserInView" scope="Method" />
+      <method v="2" />
+    </configuration>
     <configuration name="ExampleTest.test_example" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\Feature\ExampleTest" file="$PROJECT_DIR$/tests/Feature/ExampleTest.php" method="test_example" scope="Method" />
       <method v="2" />
@@ -150,6 +173,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.ExampleTest.testSeeAddedUserInView" />
+        <item itemvalue="PHPUnit.ExampleTest.testHomepage" />
         <item itemvalue="PHPUnit.ExampleTest.test_example" />
       </list>
     </recent_temporary>
