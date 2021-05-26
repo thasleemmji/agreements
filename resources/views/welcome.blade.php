@@ -21,7 +21,7 @@
         </style>
     </head>
     <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen py-4">
+        <div class="relative flex items-top justify-center min-h-screen py-6">
             <div>
                 <h1>Laravel tests</h1>
                 <h4>Users</h4>
